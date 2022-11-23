@@ -1,3 +1,5 @@
 # Dependencies
 @import 'EXT:state_template/Configuration/TypoScript/Modules/page.typoscript'
 
+# Backend layouts
+@import 'EXT:state_template/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig'
