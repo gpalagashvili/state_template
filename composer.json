@@ -1,0 +1,24 @@
+{
+  "name": "bug-attack/state-template",
+	"type": "typo3-cms-extension",
+  "description": "State Template",
+	"license": "GPL-2.0-or-later",
+	"authors": [{
+		"name": "Georgiy Palagashvili",
+		"email": "mail@palaga.net",
+		"role": "Developer"
+	}],
+	"require": {
+    "typo3/cms-core": "^10.4 || ^11.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"BugAttack\\StateTemplate\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "state-template"
+		}
+	}
+}
