@@ -1,5 +1,3 @@
-# Page object
+# Dependencies
+@import 'EXT:state_template/Configuration/TypoScript/Modules/page.typoscript'
 
-page = PAGE
-page.10 = TEXT
-page.10.value = Bug Attack / State Template

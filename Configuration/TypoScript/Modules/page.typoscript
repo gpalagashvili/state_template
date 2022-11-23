@@ -1,0 +1,11 @@
+# Page object
+
+page = PAGE
+page {
+  typeNum = 0
+   
+  10 = FLUIDTEMPLATE
+  10 {
+    file = EXT:state_template/Resources/Private/Templates/Page/Default.html
+  }
+}
