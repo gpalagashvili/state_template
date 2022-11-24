@@ -1,0 +1,14 @@
+# Page
+page {
+  meta {
+    viewport = width=device-width, initial-scale=1, minimum-scale=1
+    author = Georgiy Palagashvili
+  }
+}
+
+# Config
+config {
+  metaCharset = utf-8
+  headerComment = 
+  htmlTag.attributes.class = h-100
+}

@@ -1,0 +1,27 @@
+# Backend Layout: StickyFooterNavbar
+mod {
+  web_layout {
+    BackendLayouts {
+      sticky_footer_navbar {
+        title = LLL:EXT:state_template/Resources/Private/Language/BackendLayout.xlf:backend_layout.stickyfooternavbar
+        config {
+          backend_layout {
+            colCount = 1
+            rowCount = 1
+              rows {
+                1 {
+                  columns {
+                    1 {
+                      name = LLL:EXT:state_template/Resources/Private/Language/BackendLayout.xlf:backend_layout.column.center
+                      colPos = 0
+                    }
+                  }
+                }
+              }
+          }
+        }
+        # icon = EXT:state_template/Resources/Public/Icons/BackendLayouts/stickyfooternavbar.svg
+      }
+    }
+  }
+}

@@ -5,8 +5,8 @@
     <header/>
     <body>
 
-      <trans-unit id="backend_layout.alternative">
-        <source>Alternative</source>
+      <trans-unit id="backend_layout.stickyfooternavbar">
+        <source>StickyFooterNavbar</source>
       </trans-unit>
       
       <trans-unit id="backend_layout.column.center">
