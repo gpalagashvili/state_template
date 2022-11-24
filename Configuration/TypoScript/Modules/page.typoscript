@@ -1,14 +1,12 @@
 # Page object
-
 page = PAGE
 page {
   typeNum = 0
-   
+
+  # Fluidtemplate   
   10 = FLUIDTEMPLATE
   10 {
-
-    # Template name based on backend layout
-    
+    # Template name based on backend layout   
     templateName = TEXT
     templateName {
       cObject = TEXT
@@ -36,6 +34,18 @@ page {
     layoutRootPaths {
       0 = EXT:state_template/Resources/Private/Layouts/Page/
       1 = {$page.fluidtemplate.layoutRootPath}
-    }  
+    }
   }
+
+  # Include stylesheets
+  includeCSS {
+    bootstrap = EXT:state_template/Resources/Public/Css/Bootstrap5/bootstrap.min.css
+    starter = EXT:state_template/Resources/Public/Css/Bootstrap5/starter-template.css
+  }  
+
+  # Include js footer libraries
+  includeJSFooterlibs {
+    bootstrap = EXT:state_template/Resources/Public/JavaScript/Bootstrap5/bootstrap.min.js
+    bundle = EXT:state_template/Resources/Public/JavaScript/Bootstrap5/bootstrap.bundle.min.js
+  } 
 }
